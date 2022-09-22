@@ -2,8 +2,7 @@
     require_once __DIR__ . '/Movie.php';
 
     $movie1 = new Movie("Hunger Games", "2012", "Azione", "Gary Ross");
-    $movie1->setPlot("In un brutale futuro, 24 giovani vengono selezionati ogni anno per partecipare agli Hunger Games, una violenta competizione televisiva che prevede la sopravvivenza di uno solo.
-    ");
+    $movie1->setPlot("In un brutale futuro, 24 giovani vengono selezionati ogni anno per partecipare agli Hunger Games, una violenta competizione televisiva che prevede la sopravvivenza di uno solo.");
     $movie1Plot = $movie1->getPlot();
 
     $movie2 = new Movie("Interstellar", "2014", "Sci-fi", "Christopher Nolan");

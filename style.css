@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0e17;
+    font-family: sans-serif;
+}
+
+.main-wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #ff8906;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.film {
+    background-color: #f25f4c;
+    border-radius: 1rem;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+.film h3 {
+    color: #fff;
+    margin: .5rem 0;
+    font-size: 1.5rem;
+}
+
+.film ul li p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+.film ul li p:not(.plot) {
+    text-indent: 1rem;
+}
+
+.film ul li::marker {
+    content: '🎉';
+    font-size: 1,2rem;
+}
+
+.plot {
+    line-height: 1.5rem;
+}
